@@ -1,0 +1,77 @@
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.container h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.container {
+    text-align: center;
+}
+
+span {
+    font-size: 7rem;
+    color:black;
+}
+
+.btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: transparent;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all 0.3s linear;
+    border-radius: 0.4rem;
+    border: 2px solid #222;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 0.3rem;
+    padding: 0.25rem 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.7rem;
+}
+
+
+.btn:hover {
+    color: whitesmoke;
+    background: black;
+    transform: scale(1.1);
+}
+
+.links {
+    display: flex;
+}
+
+.links h3 {
+    margin-top: 7rem;
+}
+
+.clickMe {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: transparent;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all 0.3s linear;
+    border-radius: 0.4rem;
+    border: 2px solid #222;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 0.3rem;
+    padding: 0.25rem 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.7rem;
+}
+
+.clickMe:hover {
+    color: whitesmoke;
+    background: #A52A2A;
+    transform: scale(1.1);
+}
